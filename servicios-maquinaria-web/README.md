@@ -29,4 +29,4 @@ Todos los nombres, marcas e información de este proyecto son ficticios y se uti
 
 ## Licencia
 MIT License © 2025 mr.Piru  
-Consulta el archivo [LICENSE](./LICENSE) para más información.  
+Consulta el archivo https://github.com/mrPiru/Projects/blob/main/LICENSE para más información.  
