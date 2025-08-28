@@ -1,0 +1,113 @@
+/* Body */
+
+body {
+  background: linear-gradient(-135deg, #0c53c5, #636060);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #1a1a1a;
+}
+
+h1, p {
+  color: white;
+}
+
+h1, p, form {
+  margin: 1em auto;
+  text-align: center;
+}
+
+/* Form */
+
+form {
+  background: linear-gradient(135deg, #ffd7ba, #fff3e0);
+  width: auto;
+  max-width: 500px;
+  min-width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 0px 20px;
+  font-size: 1.25em;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid #878787a7;
+  padding: 1.5rem 0;
+}
+
+input, select, textarea {
+  border: none;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Submit */
+
+input[type="submit"] {
+  margin: 15px auto;
+  background-color: lightblue;
+  height: 35px;
+  width: 90%;
+  font-size: 1.5rem;
+  color: darkblue;
+}
+
+/* Color select */
+
+option[value="white"] {
+  background-color: white;
+}
+
+option[value="black"] {
+  background-color: black;
+  color: white;
+}
+
+option[value="red"] {
+  background-color: red;
+  color: white;
+}
+
+option[value="blue"] {
+  background-color: blue;
+  color: white;
+}
+
+option[value="green"] {
+  background-color: green;
+  color: white;
+}
+
+option[value="yellow"] {
+  background-color: yellow;
+  color: black;
+}
+
+option[value="brown"] {
+  background-color: brown;
+  color: white;
+}
+
+option[value="pink"] {
+  background-color: pink;
+  color: white;
+}
+
+option[value="orange"] {
+  background-color: orange;
+  color: white;
+}
+
+option[value="purple"] {
+  background-color: purple;
+  color: white;
+}
+
+option[value="grey"] {
+  background-color: grey;
+  color: white;
+}
