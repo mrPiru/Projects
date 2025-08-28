@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Esto es una descripción del proyecto "Survey Form"</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Ingresa tu nombre: <input type="text" id="name"  placeholder="Nombre y apellidos" required></label>
+        <label id="email-label">Ingresa tu email: <input type="email" id="email" placeholder="example@gmail.com" required></label>
+        <label id="number-label">Ingresa tu edad: <input type="number" id="number" min="13" max="120" placeholder="13"></label>
+      </fieldset>
+      <fieldset>
+        <label id="fav-color">Color Favorito <select id="dropdown">
+          <option value="">(Selecciona una)</option>
+          <option value="white">Blanco</option>
+          <option value="black">Negro</option>
+          <option value="red">Rojo</option>
+          <option value="blue">Azul</option>
+          <option value="green">Verde</option>
+          <option value="yellow">Amarillo</option>
+          <option value="brown">Marrón</option>
+          <option value="pink">Rosa</option>
+          <option value="orange">Naranja</option>
+          <option value="purple">Morado</option>
+          <option value="grey">Gris</option>
+        </select>
+        </label>
+        <label>Indica tu género: 
+          <input type="radio" name="genero" value="hombre" checked>Hombre
+          <input type="radio" name="genero" value="mujer">Mujer
+          <input type="radio" name="genero" value="no-decir">Prefiero no decir
+        </label>
+        <label>Agrega una bio de ti: 
+          <textarea id="bio" placeholder="Me gusta ..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Perros o gatos?
+          <input type="checkbox" value="perros" name="animal">Perros
+          <input type="checkbox" value="gatos" name="animal">Gatos
+        </label>
+      </fieldset> 
+      <input type="submit" id="submit" onclick="event.preventDefault(); alert('Sending Form')">
+    </form>
+  </body>
+</html>
